@@ -1,0 +1,18 @@
+{
+  "name": "cinevault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CineVault — a MERN movie database with TMDB-powered discovery, infinite scroll, and per-user watchlists.",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm run dev --prefix server",
+    "dev": "concurrently -n SERVER,CLIENT -c magenta,cyan \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && npm install --prefix server && npm install --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "keywords": ["mern", "react", "express", "mongodb", "tmdb", "movies"],
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
