@@ -174,6 +174,29 @@ Authenticated routes expect a `Authorization: Bearer <token>` header.
 
 ---
 
+## 📸 Screenshots
+
+_Add screenshots here once running:_
+
+**Home Page:**
+![Home Page](docs/homepage_1.png)
+
+**Movie Page:**
+![Movie Page](docs/moviePage_1)
+
+**Login Page:**
+![Login Page](docs/login_1.png)
+
+**Signup Page:**
+![Signup Page](docs/signup_1.png)
+
+**User Wish List:**
+![User Wish List](docs/wishlist_1.png)
+
+**Responsiveness:**
+![Responsiveness](docs/responsive.png)
+
+
 ## 🛡️ Security notes
 
 - Passwords are hashed with **bcrypt** and never returned by the API (the field is `select: false`).
